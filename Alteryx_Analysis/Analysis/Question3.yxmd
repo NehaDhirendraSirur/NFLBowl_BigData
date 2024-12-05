@@ -1,0 +1,994 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>plays.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="gameId" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="playId" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="playDescription" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="quarter" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="down" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="yardsToGo" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="possessionTeam" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="defensiveTeam" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="yardlineSide" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="yardlineNumber" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="gameClock" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="preSnapHomeScore" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="preSnapVisitorScore" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="playNullifiedByPenalty" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="absoluteYardlineNumber" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="preSnapHomeTeamWinProbability" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="preSnapVisitorTeamWinProbability" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="expectedPoints" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="offenseFormation" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="receiverAlignment" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="playClockAtSnap" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="passResult" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="passLength" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="targetX" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="targetY" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="playAction" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="dropbackType" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="dropbackDistance" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="passLocationType" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="timeToThrow" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="timeInTackleBox" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="timeToSack" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="passTippedAtLine" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="unblockedPressure" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="qbSpike" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="qbKneel" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="qbSneak" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="rushLocationType" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="penaltyYards" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="prePenaltyYardsGained" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="yardsGained" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="homeTeamWinProbabilityAdded" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="visitorTeamWinProbilityAdded" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="expectedPointsAdded" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="isDropback" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="pff_runConceptPrimary" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="pff_runConceptSecondary" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="pff_runPassOption" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="pff_passCoverage" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="pff_manZone" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>player_play.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="gameId" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="playId" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="nflId" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="teamAbbr" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="hadRushAttempt" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="rushingYards" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="hadDropback" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="passingYards" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="sackYardsAsOffense" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="hadPassReception" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="receivingYards" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="wasTargettedReceiver" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="yardageGainedAfterTheCatch" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="fumbles" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="fumbleLost" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="fumbleOutOfBounds" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="assistedTackle" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="forcedFumbleAsDefense" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="halfSackYardsAsDefense" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="passDefensed" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="quarterbackHit" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="sackYardsAsDefense" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="safetyAsDefense" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="soloTackle" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="tackleAssist" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="tackleForALoss" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="tackleForALossYardage" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="hadInterception" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="interceptionYards" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="fumbleRecoveries" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="fumbleRecoveryYards" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="penaltyYards" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="penaltyNames" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="wasInitialPassRusher" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="causedPressure" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="timeToPressureAsPassRusher" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="getOffTimeAsPassRusher" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="inMotionAtBallSnap" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="shiftSinceLineset" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="motionSinceLineset" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="wasRunningRoute" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="routeRan" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="blockedPlayerNFLId1" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="blockedPlayerNFLId2" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="blockedPlayerNFLId3" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="pressureAllowedAsBlocker" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="timeToPressureAllowedAsBlocker" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="pff_defensiveCoverageAssignment" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="pff_primaryDefensiveCoverageMatchupNflId" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="pff_secondaryDefensiveCoverageMatchupNflId" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Seventh_sem\BDA_Lab\Project\Dataset\players.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>players.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="nflId" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\players.csv" type="V_String" />
+            <Field name="height" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\players.csv" type="V_String" />
+            <Field name="weight" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\players.csv" type="V_String" />
+            <Field name="birthDate" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\players.csv" type="V_String" />
+            <Field name="collegeName" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\players.csv" type="V_String" />
+            <Field name="position" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\players.csv" type="V_String" />
+            <Field name="displayName" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\players.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="receivingYards" selected="True" type="Int64" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="282" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="gameId" selected="True" />
+            <Field field="playId" selected="True" />
+            <Field field="playDescription" selected="True" />
+            <Field field="quarter" selected="True" />
+            <Field field="down" selected="True" />
+            <Field field="yardsToGo" selected="True" />
+            <Field field="possessionTeam" selected="True" />
+            <Field field="defensiveTeam" selected="True" />
+            <Field field="yardlineSide" selected="True" />
+            <Field field="yardlineNumber" selected="True" />
+            <Field field="gameClock" selected="True" />
+            <Field field="preSnapHomeScore" selected="True" />
+            <Field field="preSnapVisitorScore" selected="True" />
+            <Field field="playNullifiedByPenalty" selected="True" />
+            <Field field="absoluteYardlineNumber" selected="True" />
+            <Field field="preSnapHomeTeamWinProbability" selected="True" />
+            <Field field="preSnapVisitorTeamWinProbability" selected="True" />
+            <Field field="expectedPoints" selected="True" />
+            <Field field="offenseFormation" selected="True" />
+            <Field field="receiverAlignment" selected="True" />
+            <Field field="playClockAtSnap" selected="True" />
+            <Field field="passResult" selected="True" />
+            <Field field="passLength" selected="True" />
+            <Field field="targetX" selected="True" />
+            <Field field="targetY" selected="True" />
+            <Field field="playAction" selected="True" />
+            <Field field="dropbackType" selected="True" />
+            <Field field="dropbackDistance" selected="True" />
+            <Field field="passLocationType" selected="True" />
+            <Field field="timeToThrow" selected="True" />
+            <Field field="timeInTackleBox" selected="True" />
+            <Field field="timeToSack" selected="True" />
+            <Field field="passTippedAtLine" selected="True" />
+            <Field field="unblockedPressure" selected="True" />
+            <Field field="qbSpike" selected="True" />
+            <Field field="qbKneel" selected="True" />
+            <Field field="qbSneak" selected="True" />
+            <Field field="rushLocationType" selected="True" />
+            <Field field="penaltyYards" selected="True" />
+            <Field field="prePenaltyYardsGained" selected="True" />
+            <Field field="yardsGained" selected="True" />
+            <Field field="homeTeamWinProbabilityAdded" selected="True" />
+            <Field field="visitorTeamWinProbilityAdded" selected="True" />
+            <Field field="expectedPointsAdded" selected="True" />
+            <Field field="isDropback" selected="True" />
+            <Field field="pff_runConceptPrimary" selected="True" />
+            <Field field="pff_runConceptSecondary" selected="True" />
+            <Field field="pff_runPassOption" selected="True" />
+            <Field field="pff_passCoverage" selected="True" />
+            <Field field="pff_manZone" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="gameId" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="Int32" />
+            <Field name="playId" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="Int16" />
+            <Field name="playDescription" size="254" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="quarter" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="Byte" />
+            <Field name="down" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="Byte" />
+            <Field name="yardsToGo" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="Byte" />
+            <Field name="possessionTeam" size="3" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="defensiveTeam" size="3" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="yardlineSide" size="3" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="yardlineNumber" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="Byte" />
+            <Field name="gameClock" size="5" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="preSnapHomeScore" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="Byte" />
+            <Field name="preSnapVisitorScore" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="Byte" />
+            <Field name="playNullifiedByPenalty" size="1" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="absoluteYardlineNumber" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="Byte" />
+            <Field name="preSnapHomeTeamWinProbability" size="19" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="preSnapVisitorTeamWinProbability" size="20" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="expectedPoints" size="20" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="offenseFormation" size="10" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="receiverAlignment" size="3" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="playClockAtSnap" size="2" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="passResult" size="2" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="passLength" size="3" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="targetX" size="6" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="targetY" size="5" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="playAction" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="Bool" />
+            <Field name="dropbackType" size="22" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="dropbackDistance" size="19" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="passLocationType" size="13" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="timeToThrow" size="5" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="timeInTackleBox" size="17" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="timeToSack" size="6" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="passTippedAtLine" size="5" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="unblockedPressure" size="5" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="qbSpike" size="5" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="qbKneel" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="Byte" />
+            <Field name="qbSneak" size="5" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="rushLocationType" size="13" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="penaltyYards" size="3" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="prePenaltyYardsGained" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="Int16" />
+            <Field name="yardsGained" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="Int16" />
+            <Field name="homeTeamWinProbabilityAdded" size="21" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="visitorTeamWinProbilityAdded" size="21" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="expectedPointsAdded" size="21" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+            <Field name="isDropback" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="Bool" />
+            <Field name="pff_runConceptPrimary" size="12" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="pff_runConceptSecondary" size="35" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="pff_runPassOption" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="Byte" />
+            <Field name="pff_passCoverage" size="20" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="V_String" />
+            <Field name="pff_manZone" size="5" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\plays.csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="282" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="gameId" selected="True" />
+            <Field field="playId" selected="True" />
+            <Field field="nflId" selected="True" />
+            <Field field="teamAbbr" selected="True" />
+            <Field field="hadRushAttempt" selected="True" />
+            <Field field="rushingYards" selected="True" />
+            <Field field="hadDropback" selected="True" />
+            <Field field="passingYards" selected="True" />
+            <Field field="sackYardsAsOffense" selected="True" />
+            <Field field="hadPassReception" selected="True" />
+            <Field field="receivingYards" selected="True" />
+            <Field field="wasTargettedReceiver" selected="True" />
+            <Field field="yardageGainedAfterTheCatch" selected="True" />
+            <Field field="fumbles" selected="True" />
+            <Field field="fumbleLost" selected="True" />
+            <Field field="fumbleOutOfBounds" selected="True" />
+            <Field field="assistedTackle" selected="True" />
+            <Field field="forcedFumbleAsDefense" selected="True" />
+            <Field field="halfSackYardsAsDefense" selected="True" />
+            <Field field="passDefensed" selected="True" />
+            <Field field="quarterbackHit" selected="True" />
+            <Field field="sackYardsAsDefense" selected="True" />
+            <Field field="safetyAsDefense" selected="True" />
+            <Field field="soloTackle" selected="True" />
+            <Field field="tackleAssist" selected="True" />
+            <Field field="tackleForALoss" selected="True" />
+            <Field field="tackleForALossYardage" selected="True" />
+            <Field field="hadInterception" selected="True" />
+            <Field field="interceptionYards" selected="True" />
+            <Field field="fumbleRecoveries" selected="True" />
+            <Field field="fumbleRecoveryYards" selected="True" />
+            <Field field="penaltyYards" selected="True" />
+            <Field field="penaltyNames" selected="True" />
+            <Field field="wasInitialPassRusher" selected="True" />
+            <Field field="causedPressure" selected="True" />
+            <Field field="timeToPressureAsPassRusher" selected="True" />
+            <Field field="getOffTimeAsPassRusher" selected="True" />
+            <Field field="inMotionAtBallSnap" selected="True" />
+            <Field field="shiftSinceLineset" selected="True" />
+            <Field field="motionSinceLineset" selected="True" />
+            <Field field="wasRunningRoute" selected="True" />
+            <Field field="routeRan" selected="True" />
+            <Field field="blockedPlayerNFLId1" selected="True" />
+            <Field field="blockedPlayerNFLId2" selected="True" />
+            <Field field="blockedPlayerNFLId3" selected="True" />
+            <Field field="pressureAllowedAsBlocker" selected="True" />
+            <Field field="timeToPressureAllowedAsBlocker" selected="True" />
+            <Field field="pff_defensiveCoverageAssignment" selected="True" />
+            <Field field="pff_primaryDefensiveCoverageMatchupNflId" selected="True" />
+            <Field field="pff_secondaryDefensiveCoverageMatchupNflId" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="gameId" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Int32" />
+            <Field name="playId" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Int16" />
+            <Field name="nflId" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Int32" />
+            <Field name="teamAbbr" size="3" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="String" />
+            <Field name="hadRushAttempt" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="rushingYards" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Int16" />
+            <Field name="hadDropback" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="passingYards" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Int16" />
+            <Field name="sackYardsAsOffense" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Int16" />
+            <Field name="hadPassReception" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="receivingYards" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Int16" />
+            <Field name="wasTargettedReceiver" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="yardageGainedAfterTheCatch" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Int16" />
+            <Field name="fumbles" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="fumbleLost" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="fumbleOutOfBounds" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="assistedTackle" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="forcedFumbleAsDefense" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="halfSackYardsAsDefense" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Int16" />
+            <Field name="passDefensed" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="quarterbackHit" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="sackYardsAsDefense" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Int16" />
+            <Field name="safetyAsDefense" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="soloTackle" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="tackleAssist" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="tackleForALoss" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="tackleForALossYardage" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="hadInterception" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="interceptionYards" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Int16" />
+            <Field name="fumbleRecoveries" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="fumbleRecoveryYards" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Int16" />
+            <Field name="penaltyYards" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Byte" />
+            <Field name="penaltyNames" size="45" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="wasInitialPassRusher" size="2" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="String" />
+            <Field name="causedPressure" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="Bool" />
+            <Field name="timeToPressureAsPassRusher" size="17" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="getOffTimeAsPassRusher" size="19" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="inMotionAtBallSnap" size="5" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="String" />
+            <Field name="shiftSinceLineset" size="5" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="String" />
+            <Field name="motionSinceLineset" size="5" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="String" />
+            <Field name="wasRunningRoute" size="2" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="String" />
+            <Field name="routeRan" size="6" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="String" />
+            <Field name="blockedPlayerNFLId1" size="5" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="String" />
+            <Field name="blockedPlayerNFLId2" size="5" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="String" />
+            <Field name="blockedPlayerNFLId3" size="5" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="String" />
+            <Field name="pressureAllowedAsBlocker" size="2" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="String" />
+            <Field name="timeToPressureAllowedAsBlocker" size="17" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="V_String" />
+            <Field name="pff_defensiveCoverageAssignment" size="3" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="String" />
+            <Field name="pff_primaryDefensiveCoverageMatchupNflId" size="5" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="String" />
+            <Field name="pff_secondaryDefensiveCoverageMatchupNflId" size="5" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\player_play.csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="282" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="nflId" selected="True" />
+            <Field field="height" selected="True" />
+            <Field field="weight" selected="True" />
+            <Field field="birthDate" selected="True" />
+            <Field field="collegeName" selected="True" />
+            <Field field="position" selected="True" />
+            <Field field="displayName" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="nflId" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\players.csv" type="Int32" />
+            <Field name="height" size="4" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\players.csv" type="String" />
+            <Field name="weight" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\players.csv" type="Int16" />
+            <Field name="birthDate" size="10" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\players.csv" type="String" />
+            <Field name="collegeName" size="26" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\players.csv" type="V_String" />
+            <Field name="position" size="3" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\players.csv" type="String" />
+            <Field name="displayName" size="26" source="File: D:\Seventh_sem\BDA_Lab\Project\Dataset\players.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="378" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>hadPassReception</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-11-27 22:01:19</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2024-11-27 22:01:19</StartDate>
+              <EndDate>2024-11-27 22:01:19</EndDate>
+              <Operand>1</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[hadPassReception] = "1"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="474" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="nflId" action="GroupBy" rename="nflId" />
+            <SummarizeField field="receivingYards" action="Sum" rename="Sum_receivingYards" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="630" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\nehas\AppData\Local\Temp\Alteryx\Engine_13472_a09a21ae313d4719a0dee0e7517ae33c_\Engine_13472_a3f5523c04a54386824ca2c65ef041c4~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="858" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\nehas\AppData\Local\Temp\Alteryx\Engine_13472_a09a21ae313d4719a0dee0e7517ae33c_\Engine_13472_1b820e2c11334d65bc60198f02979ea1~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="582" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="nflId" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="nflId" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_nflId" selected="True" rename="Right_nflId" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1002" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\nehas\AppData\Local\Temp\Alteryx\Engine_13472_a09a21ae313d4719a0dee0e7517ae33c_\Engine_13472_c556d80bd9d24be5b5efda771fdf610e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="666" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Sum_receivingYards" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sum_receivingYards - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="750" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>5</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 5 rows</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="PlotlyCharting">
+        <Position x="858" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ChartingFields>
+            <Traces json:Array="true" xmlns:json="http://james.newtonking.com/projects/json">
+              <type>scatter</type>
+              <mode>lines</mode>
+              <xsrc>displayName</xsrc>
+              <ysrc>Sum_receivingYards</ysrc>
+              <orientation>v</orientation>
+              <autocolorscale>true</autocolorscale>
+              <decreasing>
+                <line>
+                  <color>#7f7f7f</color>
+                </line>
+                <fillcolor>rgba(127, 127, 127, 0.5)</fillcolor>
+              </decreasing>
+              <increasing>
+                <line>
+                  <color>#17becf</color>
+                </line>
+                <fillcolor>rgba(23, 190, 207, 0.5)</fillcolor>
+              </increasing>
+              <boxpoints>false</boxpoints>
+            </Traces>
+            <Layout>
+              <title>
+                <text>
+                </text>
+              </title>
+              <font>
+                <family>sans-serif</family>
+              </font>
+              <autosize>false</autosize>
+              <width>700</width>
+              <height>849</height>
+              <showlegend>true</showlegend>
+              <hovermode>closest</hovermode>
+              <xaxis>
+                <range>0</range>
+                <range>4</range>
+                <autorange>true</autorange>
+                <title>
+                  <text>displayName</text>
+                </title>
+                <type>category</type>
+              </xaxis>
+              <yaxis>
+                <range>-187.06654734575341</range>
+                <range>1165.4762964274034</range>
+                <autorange>false</autorange>
+                <title>
+                  <text>Sum_receivingYards</text>
+                </title>
+                <type>linear</type>
+              </yaxis>
+            </Layout>
+          </ChartingFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1074" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">D:\Seventh_sem\BDA_Lab\Project\Outputs\output3.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>output3.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="738" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\nehas\AppData\Local\Temp\Alteryx\Engine_13472_a09a21ae313d4719a0dee0e7517ae33c_\Engine_13472_04b2c4eb0aff458b84f4b0673160f836~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="14" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="14" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="False" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Join" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Question3</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="465fe3da-df8c-4ce0-9672-a0618d4c6f1b" />
+      <Telemetry>
+        <PreviousWorkflowId value="cfd6e26f-60f5-4d2c-b01a-c575659914fb" />
+        <OriginWorkflowId value="cfd6e26f-60f5-4d2c-b01a-c575659914fb" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
